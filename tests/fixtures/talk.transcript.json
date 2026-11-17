@@ -1,0 +1,1094 @@
+{
+ "language": "en",
+ "duration": 58.256,
+ "segments": [
+  {
+   "start": 0.5,
+   "end": 5.593,
+   "text": "Welcome back to the channel, today we are talking about how rockets actually reach orbit.",
+   "words": [
+    {
+     "w": "Welcome",
+     "start": 0.5,
+     "end": 0.917,
+     "p": 0.95
+    },
+    {
+     "w": "back",
+     "start": 0.937,
+     "end": 1.208,
+     "p": 0.95
+    },
+    {
+     "w": "to",
+     "start": 1.228,
+     "end": 1.402,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 1.422,
+     "end": 1.644,
+     "p": 0.95
+    },
+    {
+     "w": "channel,",
+     "start": 1.664,
+     "end": 2.129,
+     "p": 0.95
+    },
+    {
+     "w": "today",
+     "start": 2.149,
+     "end": 2.469,
+     "p": 0.95
+    },
+    {
+     "w": "we",
+     "start": 2.489,
+     "end": 2.663,
+     "p": 0.95
+    },
+    {
+     "w": "are",
+     "start": 2.683,
+     "end": 2.905,
+     "p": 0.95
+    },
+    {
+     "w": "talking",
+     "start": 2.925,
+     "end": 3.342,
+     "p": 0.95
+    },
+    {
+     "w": "about",
+     "start": 3.362,
+     "end": 3.681,
+     "p": 0.95
+    },
+    {
+     "w": "how",
+     "start": 3.701,
+     "end": 3.924,
+     "p": 0.95
+    },
+    {
+     "w": "rockets",
+     "start": 3.944,
+     "end": 4.36,
+     "p": 0.95
+    },
+    {
+     "w": "actually",
+     "start": 4.38,
+     "end": 4.846,
+     "p": 0.95
+    },
+    {
+     "w": "reach",
+     "start": 4.866,
+     "end": 5.185,
+     "p": 0.95
+    },
+    {
+     "w": "orbit.",
+     "start": 5.205,
+     "end": 5.573,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 6.043,
+   "end": 7.696,
+   "text": "Here is the surprising part.",
+   "words": [
+    {
+     "w": "Here",
+     "start": 6.043,
+     "end": 6.315,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 6.335,
+     "end": 6.509,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 6.529,
+     "end": 6.752,
+     "p": 0.95
+    },
+    {
+     "w": "surprising",
+     "start": 6.772,
+     "end": 7.336,
+     "p": 0.95
+    },
+    {
+     "w": "part.",
+     "start": 7.356,
+     "end": 7.676,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 8.146,
+   "end": 11.738,
+   "text": "Getting to space is easy, but staying there is incredibly hard.",
+   "words": [
+    {
+     "w": "Getting",
+     "start": 8.146,
+     "end": 8.557,
+     "p": 0.95
+    },
+    {
+     "w": "to",
+     "start": 8.577,
+     "end": 8.749,
+     "p": 0.95
+    },
+    {
+     "w": "space",
+     "start": 8.769,
+     "end": 9.084,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 9.104,
+     "end": 9.276,
+     "p": 0.95
+    },
+    {
+     "w": "easy,",
+     "start": 9.296,
+     "end": 9.611,
+     "p": 0.95
+    },
+    {
+     "w": "but",
+     "start": 9.631,
+     "end": 9.85,
+     "p": 0.95
+    },
+    {
+     "w": "staying",
+     "start": 9.87,
+     "end": 10.281,
+     "p": 0.95
+    },
+    {
+     "w": "there",
+     "start": 10.301,
+     "end": 10.617,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 10.637,
+     "end": 10.808,
+     "p": 0.95
+    },
+    {
+     "w": "incredibly",
+     "start": 10.828,
+     "end": 11.383,
+     "p": 0.95
+    },
+    {
+     "w": "hard.",
+     "start": 11.403,
+     "end": 11.718,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 12.188,
+   "end": 16.726,
+   "text": "To stay in orbit you need to move sideways at almost eight kilometres every second.",
+   "words": [
+    {
+     "w": "To",
+     "start": 12.188,
+     "end": 12.351,
+     "p": 0.95
+    },
+    {
+     "w": "stay",
+     "start": 12.371,
+     "end": 12.626,
+     "p": 0.95
+    },
+    {
+     "w": "in",
+     "start": 12.646,
+     "end": 12.81,
+     "p": 0.95
+    },
+    {
+     "w": "orbit",
+     "start": 12.83,
+     "end": 13.131,
+     "p": 0.95
+    },
+    {
+     "w": "you",
+     "start": 13.151,
+     "end": 13.36,
+     "p": 0.95
+    },
+    {
+     "w": "need",
+     "start": 13.38,
+     "end": 13.635,
+     "p": 0.95
+    },
+    {
+     "w": "to",
+     "start": 13.655,
+     "end": 13.818,
+     "p": 0.95
+    },
+    {
+     "w": "move",
+     "start": 13.838,
+     "end": 14.093,
+     "p": 0.95
+    },
+    {
+     "w": "sideways",
+     "start": 14.113,
+     "end": 14.552,
+     "p": 0.95
+    },
+    {
+     "w": "at",
+     "start": 14.572,
+     "end": 14.735,
+     "p": 0.95
+    },
+    {
+     "w": "almost",
+     "start": 14.755,
+     "end": 15.102,
+     "p": 0.95
+    },
+    {
+     "w": "eight",
+     "start": 15.122,
+     "end": 15.423,
+     "p": 0.95
+    },
+    {
+     "w": "kilometres",
+     "start": 15.443,
+     "end": 15.973,
+     "p": 0.95
+    },
+    {
+     "w": "every",
+     "start": 15.993,
+     "end": 16.294,
+     "p": 0.95
+    },
+    {
+     "w": "second.",
+     "start": 16.314,
+     "end": 16.706,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 17.176,
+   "end": 20.664,
+   "text": "That is about twenty three times faster than a passenger jet.",
+   "words": [
+    {
+     "w": "That",
+     "start": 17.176,
+     "end": 17.443,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 17.463,
+     "end": 17.634,
+     "p": 0.95
+    },
+    {
+     "w": "about",
+     "start": 17.654,
+     "end": 17.968,
+     "p": 0.95
+    },
+    {
+     "w": "twenty",
+     "start": 17.988,
+     "end": 18.35,
+     "p": 0.95
+    },
+    {
+     "w": "three",
+     "start": 18.37,
+     "end": 18.685,
+     "p": 0.95
+    },
+    {
+     "w": "times",
+     "start": 18.705,
+     "end": 19.019,
+     "p": 0.95
+    },
+    {
+     "w": "faster",
+     "start": 19.039,
+     "end": 19.401,
+     "p": 0.95
+    },
+    {
+     "w": "than",
+     "start": 19.421,
+     "end": 19.688,
+     "p": 0.95
+    },
+    {
+     "w": "a",
+     "start": 19.708,
+     "end": 19.831,
+     "p": 0.95
+    },
+    {
+     "w": "passenger",
+     "start": 19.851,
+     "end": 20.357,
+     "p": 0.95
+    },
+    {
+     "w": "jet.",
+     "start": 20.377,
+     "end": 20.644,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 21.114,
+   "end": 23.529,
+   "text": "So why do rockets go straight up first?",
+   "words": [
+    {
+     "w": "So",
+     "start": 21.114,
+     "end": 21.295,
+     "p": 0.95
+    },
+    {
+     "w": "why",
+     "start": 21.315,
+     "end": 21.546,
+     "p": 0.95
+    },
+    {
+     "w": "do",
+     "start": 21.566,
+     "end": 21.748,
+     "p": 0.95
+    },
+    {
+     "w": "rockets",
+     "start": 21.768,
+     "end": 22.201,
+     "p": 0.95
+    },
+    {
+     "w": "go",
+     "start": 22.221,
+     "end": 22.402,
+     "p": 0.95
+    },
+    {
+     "w": "straight",
+     "start": 22.422,
+     "end": 22.905,
+     "p": 0.95
+    },
+    {
+     "w": "up",
+     "start": 22.925,
+     "end": 23.106,
+     "p": 0.95
+    },
+    {
+     "w": "first?",
+     "start": 23.126,
+     "end": 23.509,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 23.979,
+   "end": 28.208,
+   "text": "They climb out of the thick lower atmosphere, where drag wastes the most fuel.",
+   "words": [
+    {
+     "w": "They",
+     "start": 23.979,
+     "end": 24.232,
+     "p": 0.95
+    },
+    {
+     "w": "climb",
+     "start": 24.252,
+     "end": 24.55,
+     "p": 0.95
+    },
+    {
+     "w": "out",
+     "start": 24.57,
+     "end": 24.777,
+     "p": 0.95
+    },
+    {
+     "w": "of",
+     "start": 24.797,
+     "end": 24.959,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 24.979,
+     "end": 25.187,
+     "p": 0.95
+    },
+    {
+     "w": "thick",
+     "start": 25.207,
+     "end": 25.505,
+     "p": 0.95
+    },
+    {
+     "w": "lower",
+     "start": 25.525,
+     "end": 25.823,
+     "p": 0.95
+    },
+    {
+     "w": "atmosphere,",
+     "start": 25.843,
+     "end": 26.414,
+     "p": 0.95
+    },
+    {
+     "w": "where",
+     "start": 26.434,
+     "end": 26.733,
+     "p": 0.95
+    },
+    {
+     "w": "drag",
+     "start": 26.753,
+     "end": 27.005,
+     "p": 0.95
+    },
+    {
+     "w": "wastes",
+     "start": 27.025,
+     "end": 27.369,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 27.389,
+     "end": 27.596,
+     "p": 0.95
+    },
+    {
+     "w": "most",
+     "start": 27.616,
+     "end": 27.869,
+     "p": 0.95
+    },
+    {
+     "w": "fuel.",
+     "start": 27.889,
+     "end": 28.188,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 28.658,
+   "end": 32.731,
+   "text": "Then they tip over and spend almost all of their energy going sideways.",
+   "words": [
+    {
+     "w": "Then",
+     "start": 28.658,
+     "end": 28.925,
+     "p": 0.95
+    },
+    {
+     "w": "they",
+     "start": 28.945,
+     "end": 29.213,
+     "p": 0.95
+    },
+    {
+     "w": "tip",
+     "start": 29.233,
+     "end": 29.452,
+     "p": 0.95
+    },
+    {
+     "w": "over",
+     "start": 29.472,
+     "end": 29.74,
+     "p": 0.95
+    },
+    {
+     "w": "and",
+     "start": 29.76,
+     "end": 29.979,
+     "p": 0.95
+    },
+    {
+     "w": "spend",
+     "start": 29.999,
+     "end": 30.315,
+     "p": 0.95
+    },
+    {
+     "w": "almost",
+     "start": 30.335,
+     "end": 30.698,
+     "p": 0.95
+    },
+    {
+     "w": "all",
+     "start": 30.718,
+     "end": 30.938,
+     "p": 0.95
+    },
+    {
+     "w": "of",
+     "start": 30.958,
+     "end": 31.129,
+     "p": 0.95
+    },
+    {
+     "w": "their",
+     "start": 31.149,
+     "end": 31.465,
+     "p": 0.95
+    },
+    {
+     "w": "energy",
+     "start": 31.485,
+     "end": 31.848,
+     "p": 0.95
+    },
+    {
+     "w": "going",
+     "start": 31.868,
+     "end": 32.184,
+     "p": 0.95
+    },
+    {
+     "w": "sideways.",
+     "start": 32.204,
+     "end": 32.711,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 33.181,
+   "end": 36.96,
+   "text": "Honestly, that changed how I think about every launch I watch.",
+   "words": [
+    {
+     "w": "Honestly,",
+     "start": 33.181,
+     "end": 33.723,
+     "p": 0.95
+    },
+    {
+     "w": "that",
+     "start": 33.743,
+     "end": 34.029,
+     "p": 0.95
+    },
+    {
+     "w": "changed",
+     "start": 34.049,
+     "end": 34.489,
+     "p": 0.95
+    },
+    {
+     "w": "how",
+     "start": 34.509,
+     "end": 34.744,
+     "p": 0.95
+    },
+    {
+     "w": "I",
+     "start": 34.764,
+     "end": 34.897,
+     "p": 0.95
+    },
+    {
+     "w": "think",
+     "start": 34.917,
+     "end": 35.254,
+     "p": 0.95
+    },
+    {
+     "w": "about",
+     "start": 35.274,
+     "end": 35.612,
+     "p": 0.95
+    },
+    {
+     "w": "every",
+     "start": 35.632,
+     "end": 35.969,
+     "p": 0.95
+    },
+    {
+     "w": "launch",
+     "start": 35.989,
+     "end": 36.378,
+     "p": 0.95
+    },
+    {
+     "w": "I",
+     "start": 36.398,
+     "end": 36.531,
+     "p": 0.95
+    },
+    {
+     "w": "watch.",
+     "start": 36.551,
+     "end": 36.94,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 37.41,
+   "end": 39.894,
+   "text": "Now let's look at the numbers on this slide.",
+   "words": [
+    {
+     "w": "Now",
+     "start": 37.41,
+     "end": 37.62,
+     "p": 0.95
+    },
+    {
+     "w": "let's",
+     "start": 37.64,
+     "end": 37.942,
+     "p": 0.95
+    },
+    {
+     "w": "look",
+     "start": 37.962,
+     "end": 38.218,
+     "p": 0.95
+    },
+    {
+     "w": "at",
+     "start": 38.238,
+     "end": 38.402,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 38.422,
+     "end": 38.632,
+     "p": 0.95
+    },
+    {
+     "w": "numbers",
+     "start": 38.652,
+     "end": 39.046,
+     "p": 0.95
+    },
+    {
+     "w": "on",
+     "start": 39.066,
+     "end": 39.23,
+     "p": 0.95
+    },
+    {
+     "w": "this",
+     "start": 39.25,
+     "end": 39.506,
+     "p": 0.95
+    },
+    {
+     "w": "slide.",
+     "start": 39.526,
+     "end": 39.874,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 40.344,
+   "end": 45.007,
+   "text": "Most of a rocket is fuel, often more than ninety percent of its weight at launch.",
+   "words": [
+    {
+     "w": "Most",
+     "start": 40.344,
+     "end": 40.609,
+     "p": 0.95
+    },
+    {
+     "w": "of",
+     "start": 40.629,
+     "end": 40.8,
+     "p": 0.95
+    },
+    {
+     "w": "a",
+     "start": 40.82,
+     "end": 40.943,
+     "p": 0.95
+    },
+    {
+     "w": "rocket",
+     "start": 40.963,
+     "end": 41.323,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 41.343,
+     "end": 41.514,
+     "p": 0.95
+    },
+    {
+     "w": "fuel,",
+     "start": 41.534,
+     "end": 41.847,
+     "p": 0.95
+    },
+    {
+     "w": "often",
+     "start": 41.867,
+     "end": 42.18,
+     "p": 0.95
+    },
+    {
+     "w": "more",
+     "start": 42.2,
+     "end": 42.465,
+     "p": 0.95
+    },
+    {
+     "w": "than",
+     "start": 42.485,
+     "end": 42.751,
+     "p": 0.95
+    },
+    {
+     "w": "ninety",
+     "start": 42.771,
+     "end": 43.131,
+     "p": 0.95
+    },
+    {
+     "w": "percent",
+     "start": 43.151,
+     "end": 43.56,
+     "p": 0.95
+    },
+    {
+     "w": "of",
+     "start": 43.58,
+     "end": 43.75,
+     "p": 0.95
+    },
+    {
+     "w": "its",
+     "start": 43.77,
+     "end": 43.988,
+     "p": 0.95
+    },
+    {
+     "w": "weight",
+     "start": 44.008,
+     "end": 44.368,
+     "p": 0.95
+    },
+    {
+     "w": "at",
+     "start": 44.388,
+     "end": 44.559,
+     "p": 0.95
+    },
+    {
+     "w": "launch.",
+     "start": 44.579,
+     "end": 44.987,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 45.457,
+   "end": 48.639,
+   "text": "That is why engineers obsess over every single kilogram.",
+   "words": [
+    {
+     "w": "That",
+     "start": 45.457,
+     "end": 45.726,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 45.746,
+     "end": 45.919,
+     "p": 0.95
+    },
+    {
+     "w": "why",
+     "start": 45.939,
+     "end": 46.16,
+     "p": 0.95
+    },
+    {
+     "w": "engineers",
+     "start": 46.18,
+     "end": 46.69,
+     "p": 0.95
+    },
+    {
+     "w": "obsess",
+     "start": 46.71,
+     "end": 47.076,
+     "p": 0.95
+    },
+    {
+     "w": "over",
+     "start": 47.096,
+     "end": 47.365,
+     "p": 0.95
+    },
+    {
+     "w": "every",
+     "start": 47.385,
+     "end": 47.703,
+     "p": 0.95
+    },
+    {
+     "w": "single",
+     "start": 47.723,
+     "end": 48.089,
+     "p": 0.95
+    },
+    {
+     "w": "kilogram.",
+     "start": 48.109,
+     "end": 48.619,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 49.089,
+   "end": 53.554,
+   "text": "Every kilogram you save on the rocket is a kilogram of payload you can carry instead.",
+   "words": [
+    {
+     "w": "Every",
+     "start": 49.089,
+     "end": 49.375,
+     "p": 0.95
+    },
+    {
+     "w": "kilogram",
+     "start": 49.395,
+     "end": 49.813,
+     "p": 0.95
+    },
+    {
+     "w": "you",
+     "start": 49.833,
+     "end": 50.032,
+     "p": 0.95
+    },
+    {
+     "w": "save",
+     "start": 50.052,
+     "end": 50.294,
+     "p": 0.95
+    },
+    {
+     "w": "on",
+     "start": 50.314,
+     "end": 50.47,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 50.49,
+     "end": 50.688,
+     "p": 0.95
+    },
+    {
+     "w": "rocket",
+     "start": 50.708,
+     "end": 51.039,
+     "p": 0.95
+    },
+    {
+     "w": "is",
+     "start": 51.059,
+     "end": 51.214,
+     "p": 0.95
+    },
+    {
+     "w": "a",
+     "start": 51.234,
+     "end": 51.345,
+     "p": 0.95
+    },
+    {
+     "w": "kilogram",
+     "start": 51.365,
+     "end": 51.783,
+     "p": 0.95
+    },
+    {
+     "w": "of",
+     "start": 51.803,
+     "end": 51.958,
+     "p": 0.95
+    },
+    {
+     "w": "payload",
+     "start": 51.978,
+     "end": 52.352,
+     "p": 0.95
+    },
+    {
+     "w": "you",
+     "start": 52.372,
+     "end": 52.571,
+     "p": 0.95
+    },
+    {
+     "w": "can",
+     "start": 52.591,
+     "end": 52.789,
+     "p": 0.95
+    },
+    {
+     "w": "carry",
+     "start": 52.809,
+     "end": 53.096,
+     "p": 0.95
+    },
+    {
+     "w": "instead.",
+     "start": 53.116,
+     "end": 53.534,
+     "p": 0.95
+    }
+   ]
+  },
+  {
+   "start": 54.004,
+   "end": 57.806,
+   "text": "Thanks for watching, and remember to look up at the next launch.",
+   "words": [
+    {
+     "w": "Thanks",
+     "start": 54.004,
+     "end": 54.379,
+     "p": 0.95
+    },
+    {
+     "w": "for",
+     "start": 54.399,
+     "end": 54.626,
+     "p": 0.95
+    },
+    {
+     "w": "watching,",
+     "start": 54.646,
+     "end": 55.169,
+     "p": 0.95
+    },
+    {
+     "w": "and",
+     "start": 55.189,
+     "end": 55.416,
+     "p": 0.95
+    },
+    {
+     "w": "remember",
+     "start": 55.436,
+     "end": 55.91,
+     "p": 0.95
+    },
+    {
+     "w": "to",
+     "start": 55.93,
+     "end": 56.107,
+     "p": 0.95
+    },
+    {
+     "w": "look",
+     "start": 56.127,
+     "end": 56.403,
+     "p": 0.95
+    },
+    {
+     "w": "up",
+     "start": 56.423,
+     "end": 56.601,
+     "p": 0.95
+    },
+    {
+     "w": "at",
+     "start": 56.621,
+     "end": 56.798,
+     "p": 0.95
+    },
+    {
+     "w": "the",
+     "start": 56.818,
+     "end": 57.045,
+     "p": 0.95
+    },
+    {
+     "w": "next",
+     "start": 57.065,
+     "end": 57.342,
+     "p": 0.95
+    },
+    {
+     "w": "launch.",
+     "start": 57.362,
+     "end": 57.786,
+     "p": 0.95
+    }
+   ]
+  }
+ ]
+}

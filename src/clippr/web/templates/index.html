@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <h1>Make clips from a YouTube video</h1>
+  <p class="muted">Paste a link. Clippr downloads it, transcribes it, picks the best moments, reframes them to 9:16 around the speaker, and adds captions.</p>
+  <form method="post" action="/jobs">
+    <label for="url">YouTube link</label>
+    <input id="url" name="url" type="url" required placeholder="https://www.youtube.com/watch?v=…" value="{{ form.url or '' }}">
+    <div class="row">
+      <div>
+        <label for="max_clips">Clips</label>
+        <input id="max_clips" name="max_clips" type="number" min="1" max="20" value="{{ form.max_clips or settings.max_clips }}">
+      </div>
+      <div>
+        <label for="focus">Focus (optional)</label>
+        <input id="focus" name="focus" type="text" maxlength="300" placeholder="e.g. the funniest moments, or the product demo" value="{{ form.focus or '' }}">
+      </div>
+    </div>
+    <label class="check"><input type="checkbox" name="rights" value="true" required>
+      <span>I own this video or have the rights to clip and repost it.</span></label>
+    {% if error %}<div class="error">{{ error }}</div>{% endif %}
+    <div class="actions">
+      <button type="submit">Make clips</button>
+      <span class="muted">Clips are {{ settings.clip_min_s|int }}–{{ settings.clip_max_s|int }} s. Moments picked by: <strong>{{ picker_labels[picker] }}</strong></span>
+    </div>
+  </form>
+</section>
+
+{% if jobs %}
+<section class="panel">
+  <h2>Recent jobs</h2>
+  <table>
+    <tr><th>Video</th><th>Status</th><th>Created (UTC)</th></tr>
+    {% for j in jobs %}
+    <tr>
+      <td><a href="/jobs/{{ j.id }}">{{ j.title or j.source }}</a></td>
+      <td><span class="pill {{ j.status }}">{{ j.status }}</span></td>
+      <td class="muted">{{ j.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endif %}
+{% endblock %}

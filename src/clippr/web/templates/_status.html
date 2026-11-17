@@ -1,0 +1,69 @@
+<div id="status"
+  {% if job.status in ("queued", "running") %}hx-get="/jobs/{{ job.id }}/status" hx-trigger="every 2s" hx-swap="outerHTML"{% endif %}>
+  {% if job.status in ("queued", "running") %}
+  <section class="panel">
+    <h2>{{ job.message }}</h2>
+    <div class="bar"><div style="width: {{ (job.progress * 100)|round(1) }}%"></div></div>
+    <ul class="stages">
+      {% set ns = namespace(seen=false) %}
+      {% for name, label in stage_labels.items() %}
+        {% if job.status == "running" and name == job.stage %}{% set ns.seen = true %}<li class="current">{{ label }}</li>
+        {% elif job.status == "running" and not ns.seen and job.stage %}<li class="done">{{ label }}</li>
+        {% else %}<li>{{ label }}</li>{% endif %}
+      {% endfor %}
+    </ul>
+    <p class="muted">{{ (job.progress * 100)|round|int }}% · This page updates by itself. Long videos can take a while on a CPU.</p>
+  </section>
+  {% elif job.status == "failed" %}
+  <section class="panel">
+    <h2>Something went wrong</h2>
+    <div class="error">{{ job.error }}</div>
+    <div class="actions">
+      {% if not job.source_deleted %}
+      <form method="post" action="/jobs/{{ job.id }}/retry"><button type="submit" class="secondary">Try again</button></form>
+      {% endif %}
+      <form method="post" action="/jobs/{{ job.id }}/delete"><button type="submit" class="danger">Delete job</button></form>
+      <a class="btn secondary" href="/">New job</a>
+    </div>
+  </section>
+  {% else %}
+  <section class="panel">
+    <h2>{{ clips|length }} clips · picked by {{ picker_labels.get(job.picker, job.picker) }}</h2>
+    {% for n in job.notes_list %}<div class="note">{{ n }}</div>{% endfor %}
+    <div class="grid" style="margin-top:16px">
+      {% for c in clips %}
+      {% set base = "/jobs/" ~ job.id ~ "/clips/clip_%02d"|format(c.idx) %}
+      <article class="clip">
+        <video controls preload="metadata" playsinline poster="{{ base }}.jpg" src="{{ base }}.mp4"></video>
+        <div class="body">
+          <h3>{{ c.title }}</h3>
+          <div class="hook">{{ c.hook }}</div>
+          <div class="meta"><span>{{ "%d:%02d"|format(c.start_s // 60, c.start_s % 60) }} · {{ c.duration }} s</span><span class="score">{{ c.score }}/100</span></div>
+          <details><summary>Why this moment</summary><div class="muted">{{ c.rationale }}</div></details>
+          <div class="actions">
+            <a class="btn" href="{{ base }}.mp4?download=true">Download MP4</a>
+            <a class="btn secondary" href="{{ base }}.srt?download=true">SRT</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="panel">
+    <h2>Not quite right?</h2>
+    {% if job.source_deleted %}
+    <p class="muted">The source video has been cleaned up, so these clips can't be regenerated. Start a new job instead.</p>
+    {% else %}
+    <form method="post" action="/jobs/{{ job.id }}/regenerate">
+      <label for="focus">Pick different moments, optionally with a new focus</label>
+      <input id="focus" name="focus" type="text" maxlength="300" value="{{ job.focus or '' }}" placeholder="e.g. the most surprising facts">
+      <div class="actions">
+        <button type="submit">Regenerate clips</button>
+        <span class="muted">Reuses the transcript, so it's much faster than the first run.</span>
+      </div>
+    </form>
+    {% endif %}
+    <form method="post" action="/jobs/{{ job.id }}/delete" style="margin-top:14px"><button type="submit" class="danger">Delete job and clips</button></form>
+  </section>
+  {% endif %}
+</div>

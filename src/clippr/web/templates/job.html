@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ job.title or "Job" }} · Clippr{% endblock %}
+{% block content %}
+<section class="panel">
+  <h1>{{ job.title or "Your clips" }}</h1>
+  <div class="muted"><a href="{{ job.source }}" rel="noreferrer noopener" target="_blank">{{ job.source }}</a>
+    {% if job.focus %} · focus: “{{ job.focus }}”{% endif %}</div>
+</section>
+{% include "_status.html" %}
+{% endblock %}

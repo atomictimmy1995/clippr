@@ -1,0 +1,28 @@
+# docker compose up                          -> web app on http://localhost:8000 + worker
+# docker compose --profile local-ai up       -> also runs Ollama for the free local AI picker
+#   then once: docker compose exec ollama ollama pull qwen3:8b
+services:
+  web:
+    build: .
+    ports: ["127.0.0.1:8000:8000"]
+    volumes: ["./data:/data"]
+    env_file: [{ path: .env, required: false }]
+    restart: unless-stopped
+
+  worker:
+    build: .
+    command: ["clippr", "worker"]
+    volumes: ["./data:/data"]
+    env_file: [{ path: .env, required: false }]
+    environment:
+      CLIPPR_OLLAMA_URL: http://ollama:11434
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama
+    profiles: ["local-ai"]
+    volumes: ["ollama:/root/.ollama"]
+    restart: unless-stopped
+
+volumes:
+  ollama:
